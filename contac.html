@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactanos - Inmobiliaria de Colombia</title>
+  <link rel="stylesheet" href="/css/estilos2.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#Conoce nuestras sedes">Explora nuestras sedes</a></li>
+        <li><a href="#Registrate ahora">Registrate ahora</a></li>
+        <li><a href="#Quienes somos">Quienes somos</a></li>
+        <li><a href="#Contactanos">Contactanos</a></li>
+      </ul>
+    </nav>
+  </header>
+<section id="Contacto">
+    <h1>Contacto</h1>
+    <p>¡Contáctanos para obtener mas infomacion!</p>
+    <form action="enviar.php" method="POST">
+      <div class="form-group">
+        <label for="nombre">Nombres:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <p>Ubicacion:  Calle 42 # 15-34-Bogota</p>
+    <p>Numero: 3072883722</p>
+    <p>&copy; 2023 Inmobiliaria de Colombia🤍. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
